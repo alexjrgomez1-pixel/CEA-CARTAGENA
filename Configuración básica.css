@@ -1,0 +1,80 @@
+/* Configuración básica (Reset y fuentes) */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo claro */
+    color: #333;
+}
+
+/* 1. ESTILOS DEL ENCABEZADO */
+header {
+    background: #0056b3; /* Azul primario para el encabezado */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* 2. ESTILOS DE LA BARRA DE NAVEGACIÓN */
+nav {
+    background: #333; /* Fondo oscuro para el menú */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Cambio de color al pasar el mouse */
+}
+
+/* 3. ESTILOS DEL CONTENIDO PRINCIPAL */
+main {
+    padding: 20px;
+    max-width: 900px; /* Ancho máximo para mejor lectura */
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+main section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #0056b3;
+    background-color: #f9f9ff;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* 4. ESTILOS DEL PIE DE PÁGINA */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
